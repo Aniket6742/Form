@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            border: 2px solid black;
+        }
+       h2{
+           text-align: center;
+       }
+       #p1{
+           border-color: darkorange;
+       }
+       .id{
+           text-align: start;
+       }
+      
+    </style>
+</head>
+<body>
+    <form action="getmethod">
+       <h2>Hotel</h2>
+       <fieldset  id="p1">
+        <legend>Personal Information</legend>
+        Name: <input type="text" name="Name">
+        <br><br>
+        Email: <input type="email" name="mail" autocomplete="email">
+        <br><br>
+         <label for="" id="add">Address </label> 
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Addressss "></textarea><br><br>
+        Pin
+        <input type="text" name="pin" id="">
+       </fieldset>
+       <fieldset>
+           <legend>Menu</legend>
+           <h3>Breverages</h3><br>
+           <input type="radio" name="drinks" value="coke">coke
+           <input type="radio" name="drinks" value="coke">wine
+           <input type="radio" name="drinks" value="coke">water
+           <input type="radio" name="drinks" value="coke">soda
+           <br><br> <label for="">VEG</label>&nbsp;
+           <select name="Veg" id="" value="VEG">
+             <option value="veg">Indian</option>
+             <option value="veg">Chinese</option>
+             <option value="veg">Maxican</option>
+             <option value="veg">Italian</option>
+           </select><br><br>
+           NONVEG &nbsp;
+            <select name="non" id="">
+                <option value="non">Chicken</option>
+                <option value="non">Mutton</option>
+                <option value="non">EGG curry</option>
+            </select>
+            <h3>Dessert</h3><br>
+           <input type="radio" name="" value="icea">coke
+           <input type="radio" name="icea" value="coke">Strawberry
+           <input type="radio" name="icea" value="coke">Vanilla
+           <input type="radio" name="icea" value="coke">Chocolate
+           
+       </fieldset>
+       
+       <button type="button" class="btn btn-primary">Submit</button>
+       <button type="button" class="btn btn-primary">Reset</button>
+    
+    </form>
+    
+</body>
+</html>
